@@ -8,6 +8,6 @@ RUN chmod +x mvnw
 
 RUN ./mvnw clean package -DskipTests
 
-EXPOSE 8083
+EXPOSE 8080
 
 CMD ["java","-jar","target/studentmanagement-0.0.1-SNAPSHOT.jar"]
